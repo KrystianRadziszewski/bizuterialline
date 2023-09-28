@@ -3,11 +3,12 @@ import React from 'react';
 const Statute = () => {
 	return (
 		<div id="statute" className="statute ">
-			<h1 className="text-3xl text-center font-bold text-goldText my-10 border-b-4 border-goldText">Regulamin auckji online</h1>
+			<h1 className="text-3xl text-center font-bold text-goldText my-10 border-b-4 border-goldText">Regulamin aukcji online</h1>
 			<div className="statute-card">
 				<p className="pb-10 underline font-semibold">Decydując się na zakupy na moich transmisjach akceptujesz regulamin</p>
 				<ol className=" list-decimal font-medium space-y-10">
 					<li>Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu hasło o które proszę (zazwyczaj cena, lub cecha produktu np. złota, czarna, itp...).</li>
+					{/* 2222222222222222222222222222222 */}
 					<li>
 						<ul className=" list-disc w-4/5 text-center mx-auto space-y-2">
 							{<p className="font-bold pb-6">Osoby robiące zakupy po raz pierwszy:</p>}
@@ -24,13 +25,15 @@ const Statute = () => {
 							<li className=" font-semibold">Brak wpłaty skutkuje anulowaniem zamówienia!!!</li>
 						</ul>
 					</li>
+					{/* 3333333333333333333333333333333333 */}
 					<li>
 						<span className="font-bold"> Dane do przelewu:</span>
 						{
 							<p className="text-center pt-3">
-								TYTUŁ PRZELEWU - data zakupów + NICK Z TIK TOK <br />
+								TYTUŁ PRZELEWU: data zakupów + NICK Z TIK TOK <br />
 								Bożena Skutnik Nr konta: 32 1160 2202 0000 0002 1063 5922 <br />
-								BLIK tel. 724 - 290 – 375
+								<br />
+								<span className="font-semibold">BLIK:</span> tel. 724 - 290 – 375 Bożena Skutnik
 							</p>
 						}
 					</li>
