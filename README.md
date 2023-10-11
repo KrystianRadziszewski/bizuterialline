@@ -1,1 +1,1 @@
-Website - bizuterialine
+Website - bizuterialine.pl

@@ -37,6 +37,9 @@ const Statute = () => {
 							</p>
 						}
 					</li>
+
+					{/* 444444444444444444444444444444444444 */}
+
 					<li>
 						<ul className="list-disc w-4/5 text-center mx-auto space-y-2">
 							<p className="font-bold ">Wysyłki:</p>
@@ -46,9 +49,15 @@ const Statute = () => {
 								paczkomat - nr. paczkomatu oraz nr. telefonu są to infomracje niezbędne do wygenerowania etykiety)
 							</li>
 							<li>
-								<span className="font-bold">Koszty wysyłki:</span> Poczta Polska list polecony - 6,40zł, paczka - 15zł, paczkomat - 18zł.
+								<span className="font-bold">Koszty wysyłki:</span>
+								<br />
+								Poczta Polska list polecony priorytetowy - 8zł,
+								<br />
+								paczka - 15zł,
+								<br />
+								paczkomat - 18zł.
 							</li>
-							<li className="font-bold">Nie wysyłam za pobraniem.</li>
+							<li className="font-bold underline">Nie wysyłam za pobraniem.</li>
 						</ul>
 					</li>
 					<li>Paczkę można mieć otwartą do miesiąca czasu, ale opłacamy zakupy MAX raz na 10dni.</li>
