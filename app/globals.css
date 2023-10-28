@@ -25,7 +25,7 @@ html {
 	@apply shadow-xl bg-[#ffffff] hover:bg-goldText rounded-full transition-colors px-5 py-3 font-medium uppercase border-2 border-goldText text-goldText hover:text-white;
 }
 .button-fb {
-	@apply shadow-xl bg-[#ffffff]  rounded-full transition-colors px-5 py-3 font-medium  border-2 border-goldText text-4xl  text-blue-600 animate-bounce;
+	@apply shadow-xl bg-[#ffffff] rounded-full transition-colors px-5 py-3 font-medium  border-2 border-goldText text-4xl  text-blue-600 animate-bounce;
 }
 
 /* welcome */

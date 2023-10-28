@@ -30,7 +30,7 @@ const Statute = () => {
 						<span className="font-bold"> Dane do przelewu:</span>
 						{
 							<p className="text-center pt-3">
-								TYTUŁ PRZELEWU: data zakupów + NICK Z TIK TOK <br />
+								<span className="font-semibold">TYTUŁ PRZELEWU:</span> data zakupów + NICK Z TIK TOK <br />
 								Bożena Skutnik Nr konta: 32 1160 2202 0000 0002 1063 5922 <br />
 								<br />
 								<span className="font-semibold">BLIK:</span> tel. 724 - 290 – 375 Bożena Skutnik
@@ -45,8 +45,8 @@ const Statute = () => {
 							<p className="font-bold ">Wysyłki:</p>
 							<li>
 								<span className="font-bold">Kiedy wysyłamy:</span> poniedziałek, środa, piątek. Jeśli chcesz wysyłkę szybciej poinformuj mnie o tym wysyłając wiadomość na priv. <br />
-								Czas realizacji wysyłki paczki max 3 dni robocze, po otrzymaniu ode mnie wiadomości odnośnie wysyłki. Pamiętaj o podaniu danych do wysyłki (w przypadku listu/paczki - pełen adres;
-								paczkomat - nr. paczkomatu oraz nr. telefonu są to infomracje niezbędne do wygenerowania etykiety)
+								Czas realizacji wysyłki paczki max 3 dni robocze, po otrzymaniu ode mnie wiadomości odnośnie wysyłki. <br />
+								Pamiętaj o podaniu danych do wysyłki (w przypadku listu/paczki - pełen adres; paczkomat - nr. paczkomatu oraz nr. telefonu są to infomracje niezbędne do wygenerowania etykiety)
 							</li>
 							<li>
 								<span className="font-bold">Koszty wysyłki:</span>
