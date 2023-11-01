@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<nav className="navbar">
 			<div>
-				<Link href={`/`}>
+				<Link href={`/`} className="">
 					<Image src={`/bizuterialine-logo.jpg`} width={200} height={150} alt="logo" className=" rounded-lg" />
 				</Link>
 			</div>

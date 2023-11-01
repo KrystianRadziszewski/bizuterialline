@@ -5,48 +5,50 @@ const Statute = () => {
 		<div id="statute" className="statute ">
 			<h1 className="text-3xl text-center font-bold text-goldText my-10 border-b-4 border-goldText">Regulamin aukcji online</h1>
 			<div className="statute-card">
-				<p className="pb-10 underline font-semibold">Decydując się na zakupy na moich transmisjach akceptujesz regulamin</p>
-				<ol className=" list-decimal font-medium space-y-10">
-					<li>Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu hasło o które proszę (zazwyczaj cena, lub cecha produktu np. złota, czarna, itp...).</li>
+				<p className="pb-10 underline font-semibold text-2xl">Decydując się na zakupy na moich transmisjach akceptujesz regulamin</p>
+				<ol className=" list-decimal font-medium space-y-5">
+					<li className="border-b border-gray-400 pb-4">
+						Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu hasło o które proszę (zazwyczaj cena, lub cecha produktu np. złota, czarna, itp...).
+					</li>
 					{/* 2222222222222222222222222222222 */}
-					<li>
-						<ul className=" list-disc w-4/5 text-center mx-auto space-y-2">
-							{<p className="font-bold pb-6">Osoby robiące zakupy po raz pierwszy:</p>}
+					<li className="border-b border-gray-400 pb-4">
+						<ul className=" list-disc w-4/5 text-center mx-auto space-y-3">
+							{<p className="font-bold pb-4 text-2xl">Osoby robiące zakupy po raz pierwszy:</p>}
 
 							<li>
-								Napisz wiadomość prywatną <span className="font-bold underline">na TIK TOK</span>, wystarczy krótki tekst (chcę założyć kopertę).
+								Opłatę za pierwszy przedmiot należy uiścić w trakcie trwania transmisji, <span className="font-bold underline">BLIK lub przelew ekspresowy</span> (potwiedzenie przelewu należy przesłać
+								na numer teleofnu).
 							</li>
 							<li>
-								Po transmisji cierpliwie czekasz na podsumowanie, <span className="font-bold underline">które otrzymasz w ciągu 24h</span>
+								<span className="font-bold text-xl"> Dane do przelewu:</span>
+								{
+									<p className="text-center pt-1">
+										<span className="font-bold">Nr konta:</span> 32 1160 2202 0000 0002 1063 5922 <br />
+										<span className="font-bold">TYTUŁ PRZELEWU:</span> NICK Z TIK TOK <br />
+										<span className="font-bold">BLIK:</span> tel. 724 - 290 – 375 Bożena Skutnik
+									</p>
+								}
 							</li>
 							<li>
-								Na wpłatę czekam <span className="font-bold underline">24h po otrzymaniu ode mnie podsumowania.</span>
+								Napisz wiadomość prywatną <span className="font-bold underline">na TIK TOK</span>, wystarczy krótki tekst (chcę założyć kopertę, pierwszy zakup opłacony).
 							</li>
+
 							<li className=" font-semibold">Brak wpłaty skutkuje anulowaniem zamówienia!!!</li>
 						</ul>
 					</li>
 					{/* 3333333333333333333333333333333333 */}
-					<li>
-						<span className="font-bold"> Dane do przelewu:</span>
-						{
-							<p className="text-center pt-3">
-								<span className="font-semibold">TYTUŁ PRZELEWU:</span> data zakupów + NICK Z TIK TOK <br />
-								Bożena Skutnik Nr konta: 32 1160 2202 0000 0002 1063 5922 <br />
-								<br />
-								<span className="font-semibold">BLIK:</span> tel. 724 - 290 – 375 Bożena Skutnik
-							</p>
-						}
-					</li>
 
-					{/* 444444444444444444444444444444444444 */}
-
-					<li>
+					<li className="border-b border-gray-400 pb-4">
 						<ul className="list-disc w-4/5 text-center mx-auto space-y-2">
-							<p className="font-bold ">Wysyłki:</p>
+							<p className="font-bold text-2xl">Wysyłki:</p>
 							<li>
-								<span className="font-bold">Kiedy wysyłamy:</span> poniedziałek, środa, piątek. Jeśli chcesz wysyłkę szybciej poinformuj mnie o tym wysyłając wiadomość na priv. <br />
+								W przypadku chęci zamknięcia koperty napisz wiadomość prywatną z prośbą o podsumowanie. Pamiętaj o podaniu danych do wysyłki (w przypadku listu/paczki - pełen adres; paczkomat - nr.
+								paczkomatu oraz nr. telefonu, są to infomracje niezbędne do wygenerowania etykiety).
+							</li>
+							<li>
+								<span className="font-bold">Kiedy wysyłamy:</span> <br />
+								Wysyłki są realizowane codziennie według kolejności zamówień. <br />
 								Czas realizacji wysyłki paczki max 3 dni robocze, po otrzymaniu ode mnie wiadomości odnośnie wysyłki. <br />
-								Pamiętaj o podaniu danych do wysyłki (w przypadku listu/paczki - pełen adres; paczkomat - nr. paczkomatu oraz nr. telefonu są to infomracje niezbędne do wygenerowania etykiety)
 							</li>
 							<li>
 								<span className="font-bold">Koszty wysyłki:</span>
@@ -60,8 +62,11 @@ const Statute = () => {
 							<li className="font-bold underline">Nie wysyłam za pobraniem.</li>
 						</ul>
 					</li>
-					<li>Paczkę można mieć otwartą do miesiąca czasu, ale opłacamy zakupy MAX raz na 10dni.</li>
-					<li>
+
+					{/* 444444444444444444444444444444444444 */}
+
+					<li className="border-b border-gray-400 pb-4">Paczkę można mieć otwartą przez 14dni, ale opłacamy zakupy MAX raz na 7dni.</li>
+					<li className="border-b border-gray-400 pb-4">
 						Ze względu na dużą ilość wiadomości proszę o niepodbijanie wiadomości . Odpowiadam zawsze od najstarszych wiadomości. Nie pytamy 3 razy w ciągu dnia czy pieniążki wpłynęły ( jeśli został
 						zrobiony przelew to na pewno wpłynęły).
 					</li>
