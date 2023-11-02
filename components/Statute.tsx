@@ -7,17 +7,15 @@ const Statute = () => {
 			<div className="statute-card">
 				<p className="pb-10 underline font-semibold text-2xl">Decydując się na zakupy na moich transmisjach akceptujesz regulamin</p>
 				<ol className=" list-decimal font-medium space-y-5">
-					<li className="border-b border-gray-400 pb-4">
-						Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu hasło o które proszę (zazwyczaj cena, lub cecha produktu np. złota, czarna, itp...).
-					</li>
+					<li className="border-b border-gray-400 pb-4">Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu numer swojej koperty.</li>
 					{/* 2222222222222222222222222222222 */}
 					<li className="border-b border-gray-400 pb-4">
 						<ul className=" list-disc w-4/5 text-center mx-auto space-y-3">
 							{<p className="font-bold pb-4 text-2xl">Osoby robiące zakupy po raz pierwszy:</p>}
 
 							<li>
-								Opłatę za pierwszy przedmiot należy uiścić w trakcie trwania transmisji, <span className="font-bold underline">BLIK lub przelew ekspresowy</span> (potwiedzenie przelewu należy przesłać
-								na numer teleofnu).
+								Opłatę za pierwszy przedmiot należy uiścić w trakcie trwania transmisji, <span className="font-bold underline">BLIK lub przelew ekspresowy</span> (potwierdzenie przelewu należy
+								przesłać na numer teleofnu).
 							</li>
 							<li>
 								<span className="font-bold text-xl"> Dane do przelewu:</span>
