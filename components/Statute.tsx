@@ -22,7 +22,7 @@ const Statute = () => {
 								{
 									<p className="text-center pt-1">
 										<span className="font-bold">Nr konta:</span> 32 1160 2202 0000 0002 1063 5922 <br />
-										<span className="font-bold">TYTUŁ PRZELEWU:</span>numer koperty + nick z TIK TOK <br />
+										<span className="font-bold">TYTUŁ PRZELEWU:</span> numer koperty + nick z TIK TOK <br />
 										<span className="font-bold">BLIK:</span> tel. 724 - 290 – 375 Bożena Skutnik
 									</p>
 								}
