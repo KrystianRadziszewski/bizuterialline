@@ -7,9 +7,16 @@ const Statute = () => {
 			<div className="statute-card">
 				<p className="pb-10 underline font-semibold text-2xl">Decydując się na zakupy na moich transmisjach akceptujesz regulamin</p>
 				<ol className=" list-decimal font-medium space-y-5">
-					<li className="border-b border-gray-400 pb-4">Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu numer swojej koperty.</li>
+					<li className="list-element">Zakupy robimy podczas transmisji TIK TOK. Podajesz w komentarzu numer swojej koperty.</li>
 					{/* 2222222222222222222222222222222 */}
-					<li className="border-b border-gray-400 pb-4">
+					<li className="list-element">
+						W trakcie trwania transmisji proszę o <b>przemyślane zakupy</b>. Zadeklarowanie kupna przedmiotu jest{' '}
+						<b>
+							<span className="underline text-red-500">OSTATECZNE</span> , nie wyjmuję przedmiotów z kopert
+						</b>{' '}
+						w trakcie trwania transmisji oraz po niej.
+					</li>
+					<li className="list-element">
 						<ul className=" list-disc w-4/5 text-center mx-auto space-y-3">
 							{<p className="font-bold pb-4 text-2xl">Osoby robiące zakupy po raz pierwszy:</p>}
 
@@ -36,7 +43,7 @@ const Statute = () => {
 					</li>
 					{/* 3333333333333333333333333333333333 */}
 
-					<li className="border-b border-gray-400 pb-4">
+					<li className="list-element">
 						<ul className="list-disc w-4/5 text-center mx-auto space-y-2">
 							<p className="font-bold text-2xl">Wysyłki:</p>
 							<li>
@@ -63,8 +70,8 @@ const Statute = () => {
 
 					{/* 444444444444444444444444444444444444 */}
 
-					<li className="border-b border-gray-400 pb-4">Paczkę można mieć otwartą przez 14dni, ale opłacamy zakupy MAX raz na 7dni.</li>
-					<li className="border-b border-gray-400 pb-4">
+					<li className="list-element">Paczkę można mieć otwartą przez 14dni, ale opłacamy zakupy MAX raz na 7dni.</li>
+					<li className="list-element">
 						Ze względu na dużą ilość wiadomości proszę o niepodbijanie wiadomości . Odpowiadam zawsze od najstarszych wiadomości. Nie pytamy 3 razy w ciągu dnia czy pieniążki wpłynęły ( jeśli został
 						zrobiony przelew to na pewno wpłynęły).
 					</li>

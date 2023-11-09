@@ -2,15 +2,15 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
 	return (
 		<nav className="navbar">
-			<div>
+			<div className=" ml-6">
 				<Link href={`/`} className="">
-					<Image src={`/bizuterialine-logo.jpg`} width={200} height={150} alt="logo" className=" rounded-lg" />
+					<div>
+						<Image src={`/bizuterialine-logo.jpg`} width={200} height={150} alt="logo" className=" rounded-lg" />
+					</div>
 				</Link>
 			</div>
 			<div className="flex flex-col md:flex-row gap-8 pr-8 ">

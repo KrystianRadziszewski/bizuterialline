@@ -47,6 +47,10 @@ html {
 	@apply mb-6;
 }
 
+.list-element {
+	@apply border-b border-gray-400 pb-4;
+}
+
 /* bg to test */
 .bg1 {
 	@apply border-2 border-black;
