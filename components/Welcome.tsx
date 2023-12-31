@@ -9,7 +9,7 @@ const Welcome = () => {
 		<div className="welcome ">
 			<h1 className="text-2xl font-bold text-goldText ">Zapraszamy na otwartą grupę na Facebooku! </h1>
 			<div className=" py-3 px-5 italic font-semibold text-gray-600">
-				<p>&quot;Biżuterialine biżuteria, wyroby z żywicy, super ceny i promocje&quot;</p>
+				<p className=" text-gray-500">&quot;#Biżuterialine, #biżuteria, #wyroby z żywicy, #super ceny i promocje&quot;</p>
 			</div>
 			<div className="flex flex-col gap-6 bg-[#f3f3f3] w-auto p-8 rounded-md shadow-2xl text-center">
 				<div className="flex flex-wrap gap-5 items-center">
@@ -23,6 +23,10 @@ const Welcome = () => {
 							<FaSquareFacebook />
 						</Link>
 					</div>
+				</div>
+				<div className="font-semibold text-gray-500">
+					Transmisje (godz: 17:30): <br />
+					ŚRODA, PIĄTEK, NIEDZIELA
 				</div>
 			</div>
 		</div>
