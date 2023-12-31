@@ -93,7 +93,7 @@ const Statute = () => {
 
 					{/* 777777777777777777777777777777777777777 */}
 					<li className="list-element">
-						Ze względu na dużą ilość wiadomości proszę o niepodbijanie wiadomości . Odpowiadam zawsze od najstarszych wiadomości. Nie pytamy 3 razy w ciągu dnia czy pieniążki wpłynęły ( jeśli został
+						Ze względu na dużą ilość wiadomości proszę o niepodbijanie wiadomości . Odpowiadam zawsze od najstarszych wiadomości. Nie pytamy 3 razy w ciągu dnia czy pieniążki wpłynęły (jeśli został
 						zrobiony przelew to na pewno wpłynęły).
 					</li>
 					<li>Po opłaceniu proszę o wiadomość czy paczka otwarta czy wysyłka. Jeśli wysyłka proszę o podanie danych do wysyłki. Pozdrawiam i zapraszamy do zakupów.</li>
