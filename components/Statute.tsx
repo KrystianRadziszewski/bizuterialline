@@ -80,9 +80,9 @@ const Statute = () => {
 							<li>
 								<span className="font-bold">Koszty wysyłki:</span>
 								<br />
-								Poczta Polska list polecony priorytetowy - 8zł,
+								Poczta Polska list polecony priorytetowy - 9zł,
 								<br />
-								paczka - 15zł,
+								paczka - 18zł,
 								<br />
 								paczkomat - 18zł.
 							</li>
