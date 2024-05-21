@@ -74,17 +74,18 @@ const Statute = () => {
 							</li>
 							<li>
 								<span className="font-bold">Kiedy wysyłamy:</span> <br />
-								Wysyłki są realizowane 2x w tygodniu (wtorki i czwartki). <br />
-								Czas realizacji wysyłki paczki max 3 dni robocze, po otrzymaniu ode mnie wiadomości odnośnie wysyłki. <br />
+								Czas realizacji wysyłki to 3 dni od opłacenia całości zamówienia oraz kosztów wysyłki i poinformowania o tym w wiadomości prywatnej na TIK TOK'u.
 							</li>
 							<li>
 								<span className="font-bold">Koszty wysyłki:</span>
 								<br />
 								Poczta Polska list polecony priorytetowy - 9zł,
 								<br />
-								paczka - 18zł,
+								Paczka - 18zł,
 								<br />
-								paczkomat - 18zł.
+								Paczkomat - 18zł,
+								<br />
+								Wysyłka do UE - od 30zł (wycena indywidualna).
 							</li>
 							<li className="font-bold underline">Nie wysyłam za pobraniem.</li>
 						</ul>
@@ -98,10 +99,16 @@ const Statute = () => {
 
 					{/* 777777777777777777777777777777777777777 */}
 					<li className="list-element">
-						Ze względu na dużą ilość wiadomości proszę o niepodbijanie wiadomości . Odpowiadam zawsze od najstarszych wiadomości. Nie pytamy 3 razy w ciągu dnia czy pieniążki wpłynęły (jeśli został
+						Ze względu na dużą ilość wiadomości proszę o niepodbijanie wiadomości. Odpowiadam zawsze od najstarszych wiadomości. Nie pytamy 3 razy w ciągu dnia czy pieniążki wpłynęły (jeśli został
 						zrobiony przelew to na pewno wpłynęły).
 					</li>
-					<li>Po opłaceniu proszę o wiadomość czy paczka otwarta czy wysyłka. Jeśli wysyłka proszę o podanie danych do wysyłki. Pozdrawiam i zapraszamy do zakupów.</li>
+					{/* 88888888888888888888888888888888888888888 */}
+					<li className="list-element">Po opłaceniu proszę o wiadomość czy paczka otwarta czy wysyłka. Jeśli wysyłka proszę o podanie danych do wysyłki. Pozdrawiam i zapraszamy do zakupów.</li>
+					{/* 999999999999999999999999999999999999999999 */}
+					<li>
+						{' '}
+						<span className="font-bold ">Sobota oraz niedziela</span> do momentu tranmisji LIVE tj do godz 18:25, są dniami wolnymi. Nie odpowiadam na żadne pytania.
+					</li>
 				</ol>
 			</div>
 		</div>
