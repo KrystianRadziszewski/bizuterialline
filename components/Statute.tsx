@@ -74,7 +74,7 @@ const Statute = () => {
 							</li>
 							<li>
 								<span className="font-bold">Kiedy wysyłamy:</span> <br />
-								Czas realizacji wysyłki to 3 dni od opłacenia całości zamówienia oraz kosztów wysyłki i poinformowania o tym w wiadomości prywatnej na TIK TOK'u.
+								Czas realizacji wysyłki to 3 dni od opłacenia całości zamówienia oraz kosztów wysyłki i poinformowania o tym w wiadomości prywatnej na TIK TOK.
 							</li>
 							<li>
 								<span className="font-bold">Koszty wysyłki:</span>
