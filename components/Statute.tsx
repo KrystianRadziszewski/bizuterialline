@@ -104,16 +104,16 @@ const Statute = () => {
 					</li>
 					{/* 88888888888888888888888888888888888888888 */}
 					<li className="list-element">
-						Prośba o podsumowanie wiąże się z automatycznym zamknięciem koperty i otwarciem nowej. Dozwolone jest robienie przedpłat na poczet przyszłego podsumowania - proszę takie informację
-						zgłaszać w wiadomości prywatnej na TIK TOKu
+						Prośba o podsumowanie wiąże się z automatycznym zamknięciem koperty i otwarciem nowej. Dozwolone jest robienie przedpłat na poczet przyszłego podsumowania - proszę taką informację zgłaszać
+						w wiadomości prywatnej na TIK TOKu
 					</li>
 
 					{/* 999999999999999999999999999999999999999999 */}
-					<li className="list-element">Po opłaceniu otrzymanego podsumowania proszę o wiadomość prywatną na TIK TOKu</li>
+					<li className="list-element">Po opłaceniu otrzymanego podsumowania proszę o wiadomość prywatną na TIK TOKu - zamówienie opłacone + podaj numer koperty.</li>
 
 					{/* 10101010101101010101010101011001101010101 */}
 					<li className="list-element">
-						<span className="font-bold ">Sobota oraz niedziela</span> do momentu tranmisji LIVE tj do godz 18:25, są dniami wolnymi. Nie odpowiadam na żadne pytania.
+						<span className="font-bold ">Sobota oraz niedziela</span> do momentu transmisji LIVE tj., do godz 18:25, są dniami wolnymi. Nie odpowiadam na żadne pytania.
 					</li>
 				</ol>
 			</div>
