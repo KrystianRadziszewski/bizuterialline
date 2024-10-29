@@ -7,7 +7,7 @@ const Statute = () => {
 			className="statute ">
 			<h1 className="text-3xl text-center font-bold text-goldText my-10 border-b-4 border-goldText">Regulamin aukcji online</h1>
 			<div className="statute-card">
-				<p className="pb-10 underline font-semibold text-2xl">Decydując się na zakupy na moich transmisjach akceptujesz regulamin</p>
+				<p className="pb-10 underline font-semibold text-2xl">Decydując się na zakupy na moich transmisjach akceptujesz regulamin. Proszę o przemyślane zakupy.</p>
 				<ol className=" list-decimal font-medium space-y-5">
 					{/* 11111111111111111111111111111111111111 */}
 
@@ -68,9 +68,11 @@ const Statute = () => {
 					<li className="list-element">
 						<ul className="list-disc w-4/5 text-center mx-auto space-y-2">
 							<p className="font-bold text-2xl">Wysyłki:</p>
+							<p>(Zachęcamy do korzystania tylko i wyłącznie z INPOSTu ze względu na niezawodność.)</p>
 							<li>
-								W przypadku chęci zamknięcia koperty napisz wiadomość prywatną z prośbą o podsumowanie. Pamiętaj o podaniu danych do wysyłki (w przypadku listu/paczki - pełen adres; paczkomat - nr.
-								paczkomatu oraz nr. telefonu, są to infomracje niezbędne do wygenerowania etykiety).
+								<span className="font-bold">Podsumowanie:</span>
+								<br />W przypadku chęci zamknięcia koperty napisz wiadomość prywatną z prośbą o podsumowanie. Pamiętaj o podaniu danych do wysyłki (w przypadku listu/paczki - pełen adres; paczkomat -
+								nr. paczkomatu oraz nr. telefonu, są to infomracje niezbędne do wygenerowania etykiety).
 							</li>
 							<li>
 								<span className="font-bold">Kiedy wysyłamy:</span> <br />
@@ -104,8 +106,10 @@ const Statute = () => {
 					</li>
 					{/* 88888888888888888888888888888888888888888 */}
 					<li className="list-element">
-						Prośba o podsumowanie wiąże się z automatycznym zamknięciem koperty i otwarciem nowej. Dozwolone jest robienie przedpłat na poczet przyszłego podsumowania - proszę taką informację zgłaszać
-						w wiadomości prywatnej na TIK TOKu
+						Prośba o podsumowanie wiąże się z automatycznym zamknięciem koperty. Dozwolone jest robienie przedpłat na poczet przyszłego podsumowania - proszę taką informację zgłaszać w wiadomości
+						prywatnej na TIK TOKu.
+						<br />
+						<span>Po podsumowaniu nie ma możliwości wysyłania części zamówienia. Wysyłamy całość, nie na raty.</span>
 					</li>
 
 					{/* 999999999999999999999999999999999999999999 */}

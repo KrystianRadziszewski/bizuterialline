@@ -28,7 +28,7 @@ const Welcome = () => {
 				</div>
 			</div>
 			<div className="pt-6 font-bold text-xl text-center text-gray-900">
-				Transmisje TIK-TOK (godz: 18:15): <br />
+				Transmisje TIK-TOK (godz: 18:30): <br />
 				<span className="text-gray-700 font-normal"> ŚRODA, PIĄTEK, NIEDZIELA</span>
 			</div>
 		</>
